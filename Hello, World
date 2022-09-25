@@ -1,0 +1,10 @@
+def hello(to="World"):
+    # Use to as the second argument to the function hello
+    print("Hello,", to)
+
+hello()
+# Ask user for their name
+name = input("What is your name? ")
+
+# Passing the name variable as an argument into the hello function in place of to
+hello(name)
